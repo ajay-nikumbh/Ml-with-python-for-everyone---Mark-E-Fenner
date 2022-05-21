@@ -1,50 +1,31 @@
-3. https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1/?page=4&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Tree&sortBy=submissions
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0001](https://user-images.githubusercontent.com/37560890/169643764-3c7fca7a-483e-431b-a04d-a3eb7171d019.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0002](https://user-images.githubusercontent.com/37560890/169643768-19a233ba-155f-4968-8a4a-c339a2911d31.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0003](https://user-images.githubusercontent.com/37560890/169643777-e039d7ab-17ac-471c-b420-f5ec6dddc238.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0004](https://user-images.githubusercontent.com/37560890/169643781-607ed552-1298-4dbf-bbb5-8af300d1bb99.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0005](https://user-images.githubusercontent.com/37560890/169643787-f4044aa6-aeb1-4fe8-a175-8fb50708d65f.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0006](https://user-images.githubusercontent.com/37560890/169643793-23337652-1abf-457c-bae5-d7d015faf148.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0007](https://user-images.githubusercontent.com/37560890/169643795-b72ebc73-1df0-46ed-a026-ba2b76a9e8b4.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0008](https://user-images.githubusercontent.com/37560890/169643797-5b1a0211-a2a1-4873-aaae-3ed1bed7bb66.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0009](https://user-images.githubusercontent.com/37560890/169643799-6892accd-a559-420b-9e14-95c409bbace5.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0010](https://user-images.githubusercontent.com/37560890/169643807-a6da023c-7d0e-4a82-a830-2fbbf6a1e51c.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0011](https://user-images.githubusercontent.com/37560890/169643858-963ce468-ab10-4ec7-b7d5-217eb84c1a87.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0012](https://user-images.githubusercontent.com/37560890/169643861-819fe011-cdee-4cc4-b1ae-7c9ea4ea6410.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0013](https://user-images.githubusercontent.com/37560890/169643868-4661442d-c9b2-4b2f-b3cf-f217ab65f4b0.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0014](https://user-images.githubusercontent.com/37560890/169643871-8b4ebf46-55db-4ef7-bbe8-c6f5ef223ba9.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0015](https://user-images.githubusercontent.com/37560890/169643874-39149947-a7b7-4801-8fab-1a180f60c84b.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0016](https://user-images.githubusercontent.com/37560890/169643878-48ea9309-980f-4edb-ac4f-d6c59b4ee080.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0017](https://user-images.githubusercontent.com/37560890/169643881-c7ac2d3c-ddeb-4762-9621-460e01cc6734.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0018](https://user-images.githubusercontent.com/37560890/169643893-081f52d9-2192-4ce3-978b-9437d31fe29c.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0019](https://user-images.githubusercontent.com/37560890/169644280-2b919ef9-4a8b-4dda-8c51-f521f191debb.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0020](https://user-images.githubusercontent.com/37560890/169644284-9f8695a3-c219-4128-81b9-e2e2a04af5ee.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0021](https://user-images.githubusercontent.com/37560890/169644290-1dea4cfe-ae13-444e-89ee-7e43b96f5146.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0022](https://user-images.githubusercontent.com/37560890/169644294-29299797-ec5e-41b1-8da4-ac2a93d6f81a.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0023](https://user-images.githubusercontent.com/37560890/169644297-9c80523f-18b0-45a6-a4d4-e1e3eb0408dd.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0024](https://user-images.githubusercontent.com/37560890/169644300-fe60176a-b2f6-4cc1-82a5-8b68fbb42c79.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0025](https://user-images.githubusercontent.com/37560890/169644307-8a78044c-21cb-4d10-83b9-245e7e9bacf9.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0026](https://user-images.githubusercontent.com/37560890/169644312-e744978a-15f6-4076-95f0-dff410256c25.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0027](https://user-images.githubusercontent.com/37560890/169644322-e1174ecd-cfe6-4858-a76f-5c10e8440b38.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0028](https://user-images.githubusercontent.com/37560890/169644329-081e2001-e7c3-43d3-85b2-54fa04bd7073.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0029](https://user-images.githubusercontent.com/37560890/169644344-7571147e-866e-4e5c-804f-07656e7d9578.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-84-113_page-0030](https://user-images.githubusercontent.com/37560890/169644353-2ab54a9b-79df-498d-b186-ce997028dd36.jpg)
 
-```cpp
-vector<int> findSpiral(Node *root)
-{
-    //Your code here
-    vector<int> v;
-    int level=0;
-    if(root==NULL)
-	{
-        return v;
-    }
-    queue<Node*> q;
-    q.push(root);
-    
-	while(!q.empty())
-	{
-        int size=q.size(); 
-        vector<int> temp;
-        for(int i=0;i<size;i++)
-		{
-            Node* r=q.front();
-            q.pop();
-            temp.push_back(r->data);
-            
-			if(r->left)
-			{
-                q.push(r->left);
-            }
-            
-			if(r->right)
-			{
-                q.push(r->right);
-            }
-        }
-        if(level%2==0)
-		{
-            reverse(temp.begin(),temp.end());
-        }
-        
-		for(int i=0;i<temp.size();i++)
-		{
-            v.push_back(temp[i]);
-        }
-        level++;
-    }
-    return v;
-}
-
-```
