@@ -1,50 +1,21 @@
-3. https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1/?page=4&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Tree&sortBy=submissions
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0001](https://user-images.githubusercontent.com/37560890/169641514-f697818d-0c55-4239-a5e3-aacbc8e3c8d2.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0001](https://user-images.githubusercontent.com/37560890/169641516-def82d48-7688-4bf8-b180-a2a813bacdf1.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0003](https://user-images.githubusercontent.com/37560890/169641520-5b4d80a5-72d4-4f79-a93f-83baef89c675.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0004](https://user-images.githubusercontent.com/37560890/169641521-4fd81047-6b01-4a1c-82ba-e491f258afc0.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0005](https://user-images.githubusercontent.com/37560890/169641525-e7cd7bb2-b0f0-47d1-9c73-74fa4178d7a4.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0006](https://user-images.githubusercontent.com/37560890/169641529-0c6ec9f3-abbd-42cf-970b-ae65befffeac.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0007](https://user-images.githubusercontent.com/37560890/169641532-3f235c88-9ae4-4169-b181-eb55e1a8514c.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0008](https://user-images.githubusercontent.com/37560890/169641534-170e843f-ad6e-458d-af59-c6c8029e04f1.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0009](https://user-images.githubusercontent.com/37560890/169641536-3bd8da4b-b494-42c8-8722-5c8f70970379.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0010](https://user-images.githubusercontent.com/37560890/169641540-3f9114e7-bc7a-48a7-90e9-7c55636de510.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0011](https://user-images.githubusercontent.com/37560890/169641545-42dd1de1-ccd5-45f2-8d6f-f6e131bbe80a.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0012](https://user-images.githubusercontent.com/37560890/169641547-2ce97625-32d8-4379-aaed-3054ec74f834.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0013](https://user-images.githubusercontent.com/37560890/169641550-c328d993-1cd3-43b7-aea8-40a70b10ba07.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0014](https://user-images.githubusercontent.com/37560890/169641552-d86ab6a5-3e07-44af-b96c-18d6f7c72a8e.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0015](https://user-images.githubusercontent.com/37560890/169641555-814f151f-53c7-4af1-ab1e-2db36d4fef93.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0016](https://user-images.githubusercontent.com/37560890/169641557-97213e8b-6f64-4599-b641-90a851876bda.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0017](https://user-images.githubusercontent.com/37560890/169641561-8e8e8f73-7e05-437d-bdd6-be1bda5c812b.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0018](https://user-images.githubusercontent.com/37560890/169641564-ff2a21a7-e46c-495f-8fde-f7693a965375.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0019](https://user-images.githubusercontent.com/37560890/169641567-3058a735-9c1b-4fb4-bc10-61b507907186.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0020](https://user-images.githubusercontent.com/37560890/169641573-13898b12-e5fb-48ba-980d-9d1a015da475.jpg)
 
-```cpp
-vector<int> findSpiral(Node *root)
-{
-    //Your code here
-    vector<int> v;
-    int level=0;
-    if(root==NULL)
-	{
-        return v;
-    }
-    queue<Node*> q;
-    q.push(root);
-    
-	while(!q.empty())
-	{
-        int size=q.size(); 
-        vector<int> temp;
-        for(int i=0;i<size;i++)
-		{
-            Node* r=q.front();
-            q.pop();
-            temp.push_back(r->data);
-            
-			if(r->left)
-			{
-                q.push(r->left);
-            }
-            
-			if(r->right)
-			{
-                q.push(r->right);
-            }
-        }
-        if(level%2==0)
-		{
-            reverse(temp.begin(),temp.end());
-        }
-        
-		for(int i=0;i<temp.size();i++)
-		{
-            v.push_back(temp[i]);
-        }
-        level++;
-    }
-    return v;
-}
-
-```
