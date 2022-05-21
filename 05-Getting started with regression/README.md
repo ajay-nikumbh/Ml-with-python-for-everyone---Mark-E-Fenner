@@ -1,50 +1,21 @@
-3. https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1/?page=4&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Tree&sortBy=submissions
-
-```cpp
-vector<int> findSpiral(Node *root)
-{
-    //Your code here
-    vector<int> v;
-    int level=0;
-    if(root==NULL)
-	{
-        return v;
-    }
-    queue<Node*> q;
-    q.push(root);
-    
-	while(!q.empty())
-	{
-        int size=q.size(); 
-        vector<int> temp;
-        for(int i=0;i<size;i++)
-		{
-            Node* r=q.front();
-            q.pop();
-            temp.push_back(r->data);
-            
-			if(r->left)
-			{
-                q.push(r->left);
-            }
-            
-			if(r->right)
-			{
-                q.push(r->right);
-            }
-        }
-        if(level%2==0)
-		{
-            reverse(temp.begin(),temp.end());
-        }
-        
-		for(int i=0;i<temp.size();i++)
-		{
-            v.push_back(temp[i]);
-        }
-        level++;
-    }
-    return v;
-}
-
-```
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0001](https://user-images.githubusercontent.com/37560890/169644598-2f2e4eff-06fe-4ef1-acc8-000514fbdebb.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0002](https://user-images.githubusercontent.com/37560890/169644600-633d2910-c970-4e39-a2a6-660eebde876d.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0003](https://user-images.githubusercontent.com/37560890/169644605-2365ba53-5e34-449e-a6d7-7c300b76d5cb.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0004](https://user-images.githubusercontent.com/37560890/169644614-f10d5b39-27e7-464a-b11a-5b9157b2a559.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0005](https://user-images.githubusercontent.com/37560890/169644616-ade40dd7-2d50-4b5a-88f7-70ebb28551e2.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0006](https://user-images.githubusercontent.com/37560890/169644618-7688cdd7-7b2d-4f06-8ff7-d5ff944bc985.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0007](https://user-images.githubusercontent.com/37560890/169644620-dac47faa-5fd5-4372-9dee-c9523c4617f3.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0008](https://user-images.githubusercontent.com/37560890/169644626-adb92a48-0af2-4fd1-bc97-69f8be1c2e8a.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0009](https://user-images.githubusercontent.com/37560890/169644629-3d5dda0f-1934-4c96-937b-bd6899265891.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0010](https://user-images.githubusercontent.com/37560890/169644632-f414b9d1-3dd4-4d2d-9a30-0ec44953feba.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0011](https://user-images.githubusercontent.com/37560890/169644642-3ab7df71-0067-4615-9d02-dfbb6a883136.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0012](https://user-images.githubusercontent.com/37560890/169644646-62b7d6e5-a73b-432e-8810-4fb3b7a8493d.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0013](https://user-images.githubusercontent.com/37560890/169644651-f60b157d-e550-4007-a8a5-6688472333a7.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0014](https://user-images.githubusercontent.com/37560890/169644654-cc35700b-711b-4486-837b-b980e68179e4.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0015](https://user-images.githubusercontent.com/37560890/169644660-d95d1fa1-aa61-42e7-9476-967a3381de12.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0016](https://user-images.githubusercontent.com/37560890/169644665-1aaad6ee-5ee7-432b-a284-42b184a5b169.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0017](https://user-images.githubusercontent.com/37560890/169644668-5de47cd2-863c-43a2-8db6-c3069dffb27b.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0018](https://user-images.githubusercontent.com/37560890/169644684-9d5f591f-69ff-49bd-8afe-0509f0ae34d7.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0019](https://user-images.githubusercontent.com/37560890/169644687-dabcffa7-deeb-428f-8694-8357fc5ac397.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0020](https://user-images.githubusercontent.com/37560890/169644693-4799b2b8-29e2-4ce6-8e5f-63d0d6369de1.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-114-135_page-0021](https://user-images.githubusercontent.com/37560890/169644697-8fef23e5-b938-4fc3-95c5-050441852044.jpg)
