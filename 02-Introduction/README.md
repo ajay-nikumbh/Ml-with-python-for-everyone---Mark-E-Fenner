@@ -1,50 +1,18 @@
-3. https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1/?page=4&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Tree&sortBy=submissions
-
-```cpp
-vector<int> findSpiral(Node *root)
-{
-    //Your code here
-    vector<int> v;
-    int level=0;
-    if(root==NULL)
-	{
-        return v;
-    }
-    queue<Node*> q;
-    q.push(root);
-    
-	while(!q.empty())
-	{
-        int size=q.size(); 
-        vector<int> temp;
-        for(int i=0;i<size;i++)
-		{
-            Node* r=q.front();
-            q.pop();
-            temp.push_back(r->data);
-            
-			if(r->left)
-			{
-                q.push(r->left);
-            }
-            
-			if(r->right)
-			{
-                q.push(r->right);
-            }
-        }
-        if(level%2==0)
-		{
-            reverse(temp.begin(),temp.end());
-        }
-        
-		for(int i=0;i<temp.size();i++)
-		{
-            v.push_back(temp[i]);
-        }
-        level++;
-    }
-    return v;
-}
-
-```
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0030](https://user-images.githubusercontent.com/37560890/169641646-e058f51c-307d-4876-ab8c-44eca77fffb7.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0031](https://user-images.githubusercontent.com/37560890/169641647-73903f5c-daad-4056-a295-36e56c6fc0f9.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0032](https://user-images.githubusercontent.com/37560890/169641652-0f17d8e6-6ad5-408f-87c5-793ac3879af3.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0033](https://user-images.githubusercontent.com/37560890/169641654-ceb9a554-aa9a-43f0-be3f-8ba78921b572.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0034](https://user-images.githubusercontent.com/37560890/169641659-7b013520-2500-4149-abb5-b8f54873cef9.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0035](https://user-images.githubusercontent.com/37560890/169641663-f4900a20-b6d2-4c1c-96f3-23b7aea49a7f.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0036](https://user-images.githubusercontent.com/37560890/169641665-d3d4b03a-2796-4914-a826-589158a29cdb.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0037](https://user-images.githubusercontent.com/37560890/169641668-96d78672-5c01-49c4-8b2b-f70d73ae95c1.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0038](https://user-images.githubusercontent.com/37560890/169641671-0f27bd87-4483-43a3-8463-bf4a32547996.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0039](https://user-images.githubusercontent.com/37560890/169641674-e0f8a023-f71b-408a-b5d9-e9949d979cf8.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0040](https://user-images.githubusercontent.com/37560890/169641680-dbfd8a77-7ca7-438a-b42c-3db84b3199b9.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0041](https://user-images.githubusercontent.com/37560890/169641684-b81b8cae-69bb-49a8-bc7e-3bf736758187.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0042](https://user-images.githubusercontent.com/37560890/169641686-8d9dea28-ffee-4a27-9300-cd6eb4462201.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0043](https://user-images.githubusercontent.com/37560890/169641688-2d776383-0897-4a72-94c1-b6508b5d4de0.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0044](https://user-images.githubusercontent.com/37560890/169641698-871e1476-fd47-4786-b88f-7144494f8512.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0045](https://user-images.githubusercontent.com/37560890/169641700-e121aa1d-2e58-44e6-abae-15d5212f3f24.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0046](https://user-images.githubusercontent.com/37560890/169641702-b380e21d-597a-4f05-b6d0-bb64aa45053c.jpg)
+![Machine-Learning-With-Python-For-Everyone-Pearson-2020-1-47_page-0047](https://user-images.githubusercontent.com/37560890/169641704-ce11bf5e-419f-4162-a291-5a6ef4b752ce.jpg)
